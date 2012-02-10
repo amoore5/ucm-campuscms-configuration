@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function ucm_campuscms_configuration_install() {
+  // Set the default theme
+  variable_set('campuscms_theme_default', 'inception');
+}

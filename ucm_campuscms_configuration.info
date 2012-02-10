@@ -1,0 +1,10 @@
+name = "UCM CampusCMS Configuration"
+description = "Manages all the modules and configuration to make CampusCMS work for UC Merced"
+core = "7.x"
+package = "UC Merced"
+version = "7.x-1.0"
+
+dependencies[] = campuscms_feature_cas
+dependencies[] = campuscms_register_people_cleanup
+dependencies[] = ucm_footer_blocks
+dependencies[] = ucm_predefined_options
