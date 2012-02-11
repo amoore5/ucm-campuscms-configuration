@@ -6,4 +6,45 @@
 function ucm_campuscms_configuration_install() {
   // Set the default theme
   variable_set('campuscms_theme_default', 'inception');
+
+  // Set the default cas values
+  $cas_attributes = array(
+    'sync_every_login' => '0',
+    'relations' => array(
+      'name' => '',
+      'mail' => '[cas:attribute:mail]',
+    ),
+    'roles' => array(
+      'manage' => array(
+        3 => 0,
+        2 => 0,
+        4 => 0,
+        5 => 0,
+      ),
+      'mapping' => '[cas:attribute:edupersonaffiliation]
+[cas:attribute:edupersonprimaryaffiliation]',
+    ),
+  );
+  variable_set('cas_attributes', $cas_attributes);
+
+  $cas_auto_assigned_role = array(
+    2 => TRUE,
+    4 => 0,
+    5 => 0,
+    3 => 0,
+  );
+  variable_set('cas_auto_assigned_role', $cas_auto_assigned_role);
+
+  variable_set('cas_check_first', 0);
+  variable_set('cas_domain', 'ucmerced.edu');
+  variable_set('cas_first_login_destination', '<front>');
+  variable_set('cas_hide_email', 1);
+  variable_set('cas_hide_password', 1);
+  variable_set('cas_login_form', 0);
+  variable_set('cas_logout_destination', '<front>');
+  variable_set('cas_port', '443');
+  variable_set('cas_server', 'cas.ucmerced.edu');
+  variable_set('cas_uri', '/cas');
+  variable_set('cas_user_register', 1);
+  variable_set('cas_version', 'S1');
 }
