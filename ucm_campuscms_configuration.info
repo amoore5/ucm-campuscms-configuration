@@ -5,6 +5,6 @@ package = "UC Merced"
 version = "7.x-1.0"
 
 dependencies[] = campuscms_feature_cas
-dependencies[] = campuscms_register_people_cleanup
+dependencies[] = ucm_campuscms_registration
 dependencies[] = ucm_footer_blocks
 dependencies[] = ucm_predefined_options
