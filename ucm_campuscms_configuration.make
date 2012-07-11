@@ -34,7 +34,7 @@ projects[ucm_campuscms_feature_events][download][branch] = master
 projects[ucm_campuscms_feature_events][subdir] = custom/features
 
 ; Communications Desired Modules Without A Home in a Feature ===================
-projects[entityreference] = 1.0-rc1
+projects[entityreference] = 1.0-rc3
 projects[panels] = 3.2
 projects[superfish] = 1.8
 libraries[superfish][download][type] = git
