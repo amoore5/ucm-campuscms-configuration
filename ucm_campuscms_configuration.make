@@ -49,3 +49,10 @@ projects[inception][download][type] = git
 projects[inception][download][url] = git@bardstale.ucmerced.edu:cms-theme-inception.git
 projects[inception][download][branch] = 7.x-2.x
 projects[inception][directory_name] = inception
+
+projects[zen] = 3.1
+projects[pano][type] = theme
+projects[pano][download][type] = git
+projects[pano][download][url] = git@bardstale.ucmerced.edu:cms-theme-pano.git
+projects[pano][download][branch] = 7.x-2.x
+projects[pano][directory_name] = pano
