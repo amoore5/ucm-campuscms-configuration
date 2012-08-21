@@ -35,12 +35,12 @@ projects[ucm_campuscms_feature_events][subdir] = custom/features
 
 ; Communications Desired Modules Without A Home in a Feature ===================
 projects[entityreference] = 1.0-rc3
-projects[panels] = 3.2
+projects[panels] = 3.3
 projects[superfish] = 1.8
 libraries[superfish][download][type] = git
 libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-Drupal.git
 libraries[superfish][download][revision] = 9dbdd14d08200a18cb76a68445c28b26bab16ed6
-projects[views_accordion] = 1.0-rc1
+projects[views_accordion] = 1.0-rc2
 
 ; Theme ========================================================================
 projects[zen] = 3.1
